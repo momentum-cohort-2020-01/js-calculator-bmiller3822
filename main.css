@@ -1,0 +1,9 @@
+* {
+    Box-sizing: border-box;
+    Margin: 0;
+    Padding: 0;
+    }
+
+.main-div{
+    background-color: rgb(100	178	84	);
+}
