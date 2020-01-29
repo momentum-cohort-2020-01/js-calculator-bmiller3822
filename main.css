@@ -6,4 +6,53 @@
 
 .main-div{
     background-color: rgb(100	178	84	);
+    width: 400px;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left:35%;
+    margin-right:35%;   
+    justify-content: space-between; 
+    color: white;
+    margin-top: 50px;
 }
+
+.operator{
+    background-color: rgb(133	192	123);
+    border-top: rgb(100 178 84) solid .05rem;
+    border-bottom: rgb(100 178 84) solid .05rem;
+}
+
+.calc{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1.5rem;
+}
+
+.input{
+    width: 25%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    border: rgb(133 192 123) solid .05rem;
+    
+}
+
+#top-operator{
+    border-top: rgb(100 178 84) solid .15rem;
+}
+
+
+
+
+
+/* darker color: 100	178	84 */
+/* lighter color: 133	192	123	 (also for on-hover)*/
