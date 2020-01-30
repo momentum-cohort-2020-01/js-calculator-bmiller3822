@@ -6,56 +6,56 @@ oneButton.addEventListener("click", function updateCalc(){
 })
 
 let twoButton = document.querySelector(".two")
-oneButton.addEventListener("click", function updateCalc(){
+twoButton.addEventListener("click", function updateCalc(){
     let currentCalc=document.querySelector(".calc")
     let newCalc = document.createTextNode(2)
     currentCalc.append(newCalc)
 })
 
 let threeButton = document.querySelector(".three")
-oneButton.addEventListener("click", function updateCalc(){
+threeButton.addEventListener("click", function updateCalc(){
     let currentCalc=document.querySelector(".calc")
     let newCalc = document.createTextNode(3)
     currentCalc.append(newCalc)
 })
 
 let fourButton = document.querySelector(".four")
-oneButton.addEventListener("click", function updateCalc(){
+fourButton.addEventListener("click", function updateCalc(){
     let currentCalc=document.querySelector(".calc")
     let newCalc = document.createTextNode(4)
     currentCalc.append(newCalc)
 })
 
 let fiveButton = document.querySelector(".five")
-oneButton.addEventListener("click", function updateCalc(){
+fiveButton.addEventListener("click", function updateCalc(){
     let currentCalc=document.querySelector(".calc")
     let newCalc = document.createTextNode(5)
     currentCalc.append(newCalc)
 })
 
 let sixButton = document.querySelector(".six")
-oneButton.addEventListener("click", function updateCalc(){
+sixButton.addEventListener("click", function updateCalc(){
     let currentCalc=document.querySelector(".calc")
     let newCalc = document.createTextNode(6)
     currentCalc.append(newCalc)
 })
 
 let sevenButton = document.querySelector(".seven")
-oneButton.addEventListener("click", function updateCalc(){
+sevenButton.addEventListener("click", function updateCalc(){
     let currentCalc=document.querySelector(".calc")
     let newCalc = document.createTextNode(7)
     currentCalc.append(newCalc)
 })
 
 let eightButton = document.querySelector(".eight")
-oneButton.addEventListener("click", function updateCalc(){
+eightButton.addEventListener("click", function updateCalc(){
     let currentCalc=document.querySelector(".calc")
     let newCalc = document.createTextNode(8)
     currentCalc.append(newCalc)
 })
 
-let nineButton = document.querySelector(".two")
-oneButton.addEventListener("click", function updateCalc(){
+let nineButton = document.querySelector(".nine")
+nineButton.addEventListener("click", function updateCalc(){
     let currentCalc=document.querySelector(".calc")
     let newCalc = document.createTextNode(9)
     currentCalc.append(newCalc)
