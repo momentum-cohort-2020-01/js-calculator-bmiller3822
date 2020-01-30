@@ -1,3 +1,10 @@
+let zeroButton = document.querySelector(".zero")
+zeroButton.addEventListener("click", function updateCalc(){
+    let currentCalc=document.querySelector(".calc")
+    let newCalc = document.createTextNode(0)
+    currentCalc.append(newCalc)
+})
+
 let oneButton = document.querySelector(".one")
 oneButton.addEventListener("click", function updateCalc(){
     let currentCalc=document.querySelector(".calc")
