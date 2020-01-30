@@ -110,13 +110,53 @@ clearButton.addEventListener("click", function updateCalc(){
     currentCalc.innerHTML=newCalc;
 }) 
 
-let equalsButton = document.querySelector(".equals")
-equalsButton.addEventListener("click", function updateCalc(){
+// let equalsButton = document.querySelector(".equals")
+// equalsButton.addEventListener("click", function updateCalc(){
+//     let currentCalc=document.querySelector(".calc")
+//     let evaluation = currentCalc.innerText;
+//     let answer = eval(evaluation);
+//     currentCalc.innerHTML=answer;
+// }) 
+
+//This still works but doesn't throw the alert. Not sure why. 
+try {
+    let equalsButton = document.querySelector(".equals")
+    equalsButton.addEventListener("click", function updateCalc(){
     let currentCalc=document.querySelector(".calc")
     let evaluation = currentCalc.innerText;
     let answer = eval(evaluation);
     currentCalc.innerHTML=answer;
 }) 
+  }
+  catch(err) {
+    alert("Please enter a valid equation.");
+  }
+
+
+
+  //This works
+//   let equalsButton = document.querySelector(".equals")
+// equalsButton.addEventListener("click", function updateCalc(){
+//     let currentCalc=document.querySelector(".calc")
+//     let evaluation = currentCalc.innerText;
+//     let answer = eval(evaluation);
+//     currentCalc.innerHTML=answer;
+// }) 
+
+//Failed attempt at an error message.  I know why, I just don't know how to evaluate against the result of the function vs the innerText. 
+// let equalsButton = document.querySelector(".equals")
+// equalsButton.addEventListener("click", function updateCalc(){
+//     let currentCalc=document.querySelector(".calc")
+//     let evaluation = currentCalc.innerText;
+//     let answer = eval(evaluation);
+//     if (isNaN(eval(evaluation))){
+//         alert ("Please input a valid equation.")
+//         } else {
+//     currentCalc.innerHTML=answer;
+// }}) 
+
+
+
 //innerHTML
 
 

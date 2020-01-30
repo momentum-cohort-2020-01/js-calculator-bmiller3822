@@ -34,16 +34,6 @@
 }
 
 .operator{
-    /* background-color: rgb(133	192	123);
-    border-top: rgb(100 178 84) solid .05rem;
-    border-bottom: rgb(100 178 84) solid .05rem;
-    width: 25%;
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem; */
     width: 25%;
     height: 100px;
     display: flex;
@@ -56,6 +46,8 @@
     border-radius: .5rem;
     color: rgb(74	77	83);
     cursor:pointer;
+    outline: none;
+    box-shadow: 0 2px #999;
 }
 
 .input{
@@ -71,6 +63,8 @@
     border-radius: .5rem;
     color: white;
     cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px #999;
 }
 
 .operator:hover{
@@ -80,6 +74,31 @@
 .input:hover{
     color:rgb(74	77	83);
 }
+
+.input:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+
+.operator:active{
+    background-color: #3e8e41;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+
+/*Operator button original */
+ /* background-color: rgb(133	192	123);
+    border-top: rgb(100 178 84) solid .05rem;
+    border-bottom: rgb(100 178 84) solid .05rem;
+    width: 25%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem; */
+
 
 /* div {
     border: rgb(133 192 123) solid .05rem;
