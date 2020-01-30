@@ -18,6 +18,7 @@
     border-radius: .8rem;
     padding: 2rem;
     background-color: rgb(74	77	83	);
+    box-shadow: 2px 2px #999;
 }
 
 .calc{
@@ -31,6 +32,7 @@
     border-radius: .5rem;
     color: black;
     background-color: white;
+    overflow: auto;
 }
 
 .operator{
@@ -47,7 +49,7 @@
     color: rgb(74	77	83);
     cursor:pointer;
     outline: none;
-    box-shadow: 0 2px #999;
+    box-shadow: 2px 2px #999;
 }
 
 .input{
@@ -64,7 +66,7 @@
     color: white;
     cursor: pointer;
     outline: none;
-    box-shadow: 0 2px #999;
+    box-shadow: 2px 2px #999;
 }
 
 .operator:hover{
@@ -77,14 +79,14 @@
 
 .input:active {
     background-color: #3e8e41;
-    box-shadow: 0 1px #666;
-    transform: translateY(1px);
+    box-shadow: 1px 1px #666;
+    transform: translateY(1px), translateX(1px);
 }
 
 .operator:active{
     background-color: #3e8e41;
-    box-shadow: 0 1px #666;
-    transform: translateY(1px);
+    box-shadow: 1px 1px #666;
+    transform: translateY(1px), translateX(1px);
 }
 
 /*Operator button original */
