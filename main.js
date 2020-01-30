@@ -61,8 +61,56 @@ nineButton.addEventListener("click", function updateCalc(){
     currentCalc.append(newCalc)
 })
 
+let divisionButton = document.querySelector(".division")
+divisionButton.addEventListener("click", function updateCalc(){
+    let currentCalc=document.querySelector(".calc")
+    let newCalc = document.createTextNode("/")
+    currentCalc.append(newCalc)
+})
 
+let multiplicationButton = document.querySelector(".multiplication")
+multiplicationButton.addEventListener("click", function updateCalc(){
+    let currentCalc=document.querySelector(".calc")
+    let newCalc = document.createTextNode("*")
+    currentCalc.append(newCalc)
+})
 
+let subtractionButton = document.querySelector(".subtraction")
+subtractionButton.addEventListener("click", function updateCalc(){
+    let currentCalc=document.querySelector(".calc")
+    let newCalc = document.createTextNode("-")
+    currentCalc.append(newCalc)
+})
+
+let additionButton = document.querySelector(".addition")
+additionButton.addEventListener("click", function updateCalc(){
+    let currentCalc=document.querySelector(".calc")
+    let newCalc = document.createTextNode("+")
+    currentCalc.append(newCalc)
+})
+
+let decimalButton = document.querySelector(".decimal")
+decimalButton.addEventListener("click", function updateCalc(){
+    let currentCalc=document.querySelector(".calc")
+    let newCalc = document.createTextNode(".")
+    currentCalc.append(newCalc)
+})
+
+let clearButton = document.querySelector(".clear")
+clearButton.addEventListener("click", function updateCalc(){
+    let currentCalc=document.querySelector(".calc")
+    let newCalc = "";
+    currentCalc.innerHTML=newCalc;
+}) 
+
+let equalsButton = document.querySelector(".equals")
+equalsButton.addEventListener("click", function updateCalc(){
+    let currentCalc=document.querySelector(".calc")
+    let evaluation = currentCalc.innerText;
+    let answer = eval(evaluation);
+    currentCalc.innerHTML=answer;
+}) 
+//innerHTML
 
 
 // document.getElementById("myText").value = "Johnny Bravo";
